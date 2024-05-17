@@ -1,0 +1,157 @@
+:root{
+    --background: #09090B;
+    --primary: #FAFAFA;
+    --copyright: #bdc1c4;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+body{
+    display: block;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    z-index: 0;
+}
+.light{
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100dvw;
+    height: 112px;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    z-index: 1;
+}
+.headerContainer{
+    display: flex;
+    align-items: center;
+    width: 100dvw;
+    height: 73px;
+    margin: 0 60px;
+    z-index: 2;
+}
+nav{
+    display: flex;
+    width: 1210px;
+    height: 42px;
+    gap: 80px;
+    z-index: 3;
+}
+.links{
+    display: flex;
+    gap: 40px;
+    z-index: 0;
+}
+.links a{
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--primary);
+}
+button{
+    cursor: pointer;
+}
+.btn{
+    position: fixed;
+    display: flex;
+    right: 80px;
+    width: 253px;
+    height: 61px;
+    align-items: center;
+    border-style: none;
+    border-radius: 32px;
+    overflow: hidden;
+}
+.contactsLogo{
+    position: absolute;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+}
+.contactsText{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+}
+footer {
+    width: auto;
+    color: var(--background);
+    background-color: var(--primary);
+    z-index: 0;
+}
+footer a {
+    display: flex;
+    color: var(--background);
+    z-index: 1;
+}
+.blank{
+    width: auto;
+    height: 65px;
+    border-radius: 0 0 65px 65px;
+    top: 0;
+    background-color: var(--background);
+    z-index: 0;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 40px 50px;
+    gap: 100px;
+    height: 100%;
+}
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+.footerLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    gap: 40px;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.YAGER_footer_logo{
+    width: 180px;
+    height: 32px;
+    z-index: 0;
+}
+.copyright{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--copyright);
+}
+.legal{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
