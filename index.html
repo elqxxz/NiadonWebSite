@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/preset/styles.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <header>
@@ -15,10 +16,10 @@
             <nav>
                 <img src="public/YagerLogoLight.svg" draggable="false" class="YAGER_logo">
                 <div class="links">
-                    <a href="" class="mainLink">Главная</a>
-                    <a href="" class="aboutUs">О нас</a>
-                    <a href="" class="projects">Проекты</a>
-                    <a href="" class="news">Новости</a>
+                    <a href="/" class="mainLink">Главная</a>
+                    <a href="pages/about.html" class="aboutUs">О нас</a>
+                    <a href="pages/projects.html" class="projects">Проекты</a>
+                    <a href="pages/news.html" class="news">Новости</a>
                 </div>
             </nav>
             <button id="contactsBtn" class="contactsBtn btn"><p class="contactsText">Контакты</p>
@@ -26,8 +27,21 @@
             </button>
         </div>
     </header>
+    <div class="light"></div>
     <main>
-        <img src="src/imgs/Ellipse 99.png" class="light" draggable="false">
+        <div class="Niadon">
+            <div class="noise"></div>
+            <div class="fishnet"></div>
+            <div class="NiadonBgLogo"></div>
+            <div class="NiadonTopElem">
+                <div class="Game">Игра</div>
+                <img src="public/NiadonLogo.svg" alt="" draggable="false" class="NiadonLogo">
+            </div>
+            <div class="NiadonBottomElem">
+                <p class="NiadonTitle">НИАДОН</p>
+                <p class="NiadonDescription">Погрузитесь в захватывающий мир фантастического приключения, где вы сможете исследовать огромную лабороторию , сражаться с могущественными монстрами и разгадывать загадки.</p>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="blank"></div>
@@ -37,10 +51,10 @@
                     <img src="public/YagerLogoDark.svg" draggable="false" class="YAGER_footer_logo">
                 </a>
                 <div class="footerLinks">
-                    <a href="" class="footerLink">О нас</a>
-                    <a href="" class="footerLink">Проекты</a>
-                    <a href="" class="footerLink">Новости</a>
-                    <a href="" class="footerLink">Контакты</a>
+                    <a href="pages/about.html" class="footerLink">О нас</a>
+                    <a href="pages/projects.html" class="footerLink">Проекты</a>
+                    <a href="pages/news.html" class="footerLink">Новости</a>
+                    <a href="pages/error.html" class="footerLink">Контакты</a>
                 </div>
             </div>
             <div class="footerBottom">

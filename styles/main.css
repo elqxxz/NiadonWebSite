@@ -1,0 +1,112 @@
+:root{
+    --gameBtn: #A1A1AA4D;
+}
+.Niadon{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--border);
+    background-color: #171717;
+    border-radius: 40px;
+    margin-top: 112px;
+    z-index: 2;
+    overflow-block: hidden;
+    color: var(--primary);
+}
+.NiadonTopElem{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 40px;
+    font-weight: 400;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.NiadonLogo{
+    z-index: 1;
+}
+.NiadonTopElem .Game{
+    display: flex;
+    padding: 4px 30px;
+    height: fit-content;
+    background-color: var(--gameBtn);
+    border-radius: 80px;
+    box-shadow: 0 0 19px 0 #0000008f inset;
+}
+.NiadonBottomElem{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: fit-content;
+    margin: 40px;
+}
+.NiadonTitle{
+    height: fit-content;
+    font-weight: 800;
+    font-size: 80px;
+    z-index: 1;
+}
+.NiadonDescription{
+    font-weight: 400;
+    font-size: 20px;
+    z-index: 1;
+}
+.NiadonBgLogo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+    z-index: 1;
+    background-image: url(../public/NiadonBgLogo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.noise{
+    position: absolute;
+    width: 100dvw;
+    height: 100dvh;
+    opacity: 0.05;
+    z-index: 3;
+    background-image: url(../public/Noise.svg);
+    background-repeat: repeat;
+}
+.fishnet{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 0;
+    opacity: 0.3;
+    background-image: url(../public/fishnet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Error page */
+.ErrorGoBack{
+    display: flex;
+    padding: 4px 30px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gameBtn);
+    border-radius: 80px;
+    box-shadow: 0 0 19px 0 #0000008f inset;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    z-index: 5;
+}
+
+.arrow-icon{
+    transition: all 0.3s ;
+}
+
+.ErrorGoBack:hover .arrow-icon{
+    transform: translateX(-7px);
+}
