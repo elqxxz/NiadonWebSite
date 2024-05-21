@@ -1,5 +1,5 @@
 :root{
-    --gameBtn: #a1a1aa;
+    --gameBtn: #616161;
 }
 .Niadon{
     position: relative;
@@ -34,7 +34,8 @@
     height: fit-content;
     background-color: var(--gameBtn);
     border-radius: 80px;
-    box-shadow: 0 0 19px 0 #0000008f inset;
+    box-shadow: 0 0 19px 0 #000000b9 inset;
+    z-index: 3;
 }
 .NiadonBottomElem{
     display: flex;
@@ -69,7 +70,7 @@
     position: absolute;
     width: 100dvw;
     height: 100dvh;
-    opacity: 0.2;
+    opacity: 0.05;
     z-index: 3;
     background-image: url(../public/Noise.svg);
     background-repeat: repeat;
